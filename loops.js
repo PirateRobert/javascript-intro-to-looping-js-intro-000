@@ -20,7 +20,7 @@ function doWhileLoop(array){
   do{
     array.splice(0,1)
   }
-  while (maybeTrue() && array.length > 0);
+  while (array.length > 0 && maybeTrue());
   return array
 }
 
