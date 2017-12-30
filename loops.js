@@ -18,7 +18,9 @@ function whileLoop(num){
 }
 
 function doWhileLoop(array){
-
+  do{
+    array.splice(0,1)
+  }
 }
 
 function maybeTrue(){
